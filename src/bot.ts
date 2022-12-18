@@ -1,6 +1,6 @@
 import { Client, Collection, GatewayIntentBits } from 'discord.js';
-import { CommandHandle } from './Events/commandHandle';
-import { Interaction } from './Events/Interaction';
+import { CommandHandle } from './Events/Guild/commandHandle';
+import { Interaction } from './Events/Guild/Interaction';
 import { PrismaClient } from '@prisma/client';
 import * as dotenv from 'dotenv'
 dotenv.config()
